@@ -10,7 +10,7 @@ TARGET2=sub
 TARGET3=mult
 TARGET4=div
 
-all: $(TARGET) $(TARGET1) $(TARGET2) $(TARGET3)
+all: $(TARGET) $(TARGET1) $(TARGET2) $(TARGET3) $(TARGET4)
 
 $(TARGET): helloworld.o
 	$(CC) $(LDFLAGS) $^ -o $@
