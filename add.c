@@ -12,7 +12,7 @@ int main(int argc, char *argv[]){
   int b = atoi(argv[2]);
   int sum = a+b;
 
-  printf("The sum is %d\n",sum);
+  printf("%d\n",sum);
 
   return 0;
 }

@@ -13,7 +13,7 @@ int main(int argc, char *argv[]){
   int b = atoi(argv[2]);
   int dif = a-b;
 
-  printf("The differens is %d\n", dif);
+  printf("%d\n", dif);
 
   return 0;
   return 0;
