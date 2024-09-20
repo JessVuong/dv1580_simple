@@ -45,21 +45,18 @@ int main(int argc, char *argv[]){
     return -1;
   }
 
-  if(IsNum(argv[1], strlen(argv[1])) != 0)
-  {
-    printf("Argument 1 is not a number: %s\n", argv[1]);
-  }
-  
   if(atof(argv[2]) == 0)
   {
     printf("DIV ZERO NOT ALLOWED\n");
     return 1;
   }
 
-  if(IsNum(argv[2], strlen(argv[2])) != 0)
+  if(IsNum(argv[1], strlen(argv[1])) != 0 || IsNum(argv[2], strlen(argv[2])) != 0)
   {
-    printf("Arguemnt 2 is not a number: %s\n", argv[2]);
+    printf("ERROR\n");
+    return 1;
   }
+  
 
   float a = atof(argv[1]);
   float b = atof(argv[2]);
