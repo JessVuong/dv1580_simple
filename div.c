@@ -65,6 +65,6 @@ int main(int argc, char *argv[]){
   float b = atof(argv[2]);
   float rest = a/b;
 
-  printf("The rest of %s and %s is %.2f\n", argv[1], argv[2], rest);
+  printf("The rest is %.2f\n", rest);
   return 0;
 }

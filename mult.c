@@ -59,7 +59,7 @@ int main(int argc, char *argv[]){
   float b = atof(argv[2]);
   float product = a*b;
 
-  printf("The product of %s and %s is %.2f\n", argv[1], argv[2], product);
+  printf("The product is %.2f\n", product);
   
   return 0;
 }
