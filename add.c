@@ -44,7 +44,7 @@ int main(int argc, char *argv[]){
     return -1;
   }
 
- if(IsNum(argv[1], strlen(argv[1])) != 0)
+ if(IsNum(argv[1], strlen(argv[1])) != 0 || IsNum(argv[2], strlen(argv[2])) != 0)
   {
     printf("ERROR\n");
     return 1;
