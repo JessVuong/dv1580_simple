@@ -45,6 +45,12 @@ int main(int argc, char *argv[]){
     printf("Invalid amount of arguments\n");
     return -1;
   }
+  
+  if(IsNum(argv[1], strlen(argv[1])) != 0)
+  {
+    printf("ERROR\n");
+    return 1;
+  }
 
   int a = atoi(argv[1]);
   int b = atoi(argv[2]);
